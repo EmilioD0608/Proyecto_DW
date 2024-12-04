@@ -17,3 +17,12 @@ def teclados(request):
 
 def mouse(request):
     return render(request, 'Mouses.html')
+
+def acerca_de (request):
+    return render(request, 'acerca_de.html')
+
+def marcas(request):
+    return render(request, 'marcas.html')
+
+def perfil(request):
+    return render(request, 'perfil.html')
