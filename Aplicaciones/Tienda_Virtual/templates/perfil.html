@@ -7,8 +7,27 @@
 
 {% block content %}
 <div class="container mt-4">
-    <h2>Mi Perfil</h2>
-    <p>Info de la cuenta de usuario</p>
-    <!-- Aquí puedes agregar tarjetas, productos, etc. -->
+    <h2 class="text-center mb-4">Mi Perfil</h2>
+    <p class="text-muted text-center">Información de tu cuenta de usuario: <strong>Goyespro99</strong></p>
+    <!-- Sección de imagen y datos -->
+    <div class="row align-items-center">
+        <!-- Imagen de perfil -->
+        <div class="col-md-4 text-center">
+            <img src="{% static 'img/goyes.png' %}" alt="goyes" class="img-fluid rounded-circle shadow" style="max-width: 200px;">
+        </div>
+        <!-- Información personal -->
+        <div class="col-md-8">
+            <div class="card shadow p-3">
+                <h3 class="mb-3">Información Personal</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Cédula:</strong> 0698845248</li>
+                    <li><strong>Teléfono:</strong> 0999898958</li>
+                    <li><strong>Email:</strong> emilioadrianmajoariana@gmail.com</li>
+                    <li><strong>Dirección:</strong> Ecuador, Santa Elena, intersección entre la calle Octava y Novena del pueblo Acachún</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
+
 {% endblock %}

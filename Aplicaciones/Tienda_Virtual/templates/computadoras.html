@@ -7,8 +7,54 @@
 
 {% block content %}
 <div class="container mt-4">
-    <h2>Computadoras</h2>
-    <p>Pc Gamer, Básicas, Gama Baja...etc</p>
-    <!-- Aquí puedes agregar tarjetas, productos, etc. -->
 </div>
+    <section id="productos" class="mt-5">
+    <h2>Computadoras Ensambladas</h2>
+    <div class="row">
+        <!-- Ensamble 1: AMD Ryzen 5 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <a href="https://www.amazon.com/-/es/AMD-Ryzen-5600X-desbloqueados-procesador/dp/B08166SLDF?th=1" class="dropdown-item">
+                <img src="{% static 'img/compu1.png' %}" alt="Ensamble AMD Ryzen 5" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ensamble AMD Ryzen 5</h5>
+                    <p class="price">$999.99</p>
+                    <p class="card-text">Procesador AMD Ryzen 5 5600G, 16GB RAM DDR4, 500GB SSD NVMe, tarjeta gráfica integrada Radeon Vega. Excelente para gaming y multitarea.</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                    </a>
+            </div>
+        </div>
+        <!-- Ensamble 2: Intel Core i7 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <a href="https://www.amazon.com/-/es/i7-12700K-Procesador-escritorio-integrados-desbloqueado/dp/B09FXNVDBJ?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2GEN76CO8K20T&dib=eyJ2IjoiMSJ9.2y7rQJXj2kNej018ddufICPJmdWafXq7CFm-mYynx9k5BJ0sSBvtfsKahRb9ynHMWyKSoUwjkIgJrWgQsEiRqlLNPSR4hSdXm7RmQ1MFcv1ZhecOTXQgoqs3dCO49dYF4CK5ueGQqGzwHOMqfBuMlF6Pul9XitKM0dEsdRvNsy35xXCdOZ4z5khJIENCoPdxRCU1idCoLoEv4ljR0C3KMIUDZipOJ1TfPOIOHbvxo9c.tywkpFKLwwtoRAVIbM1dk_dSCmSotkMGVUEmZZClWos&dib_tag=se&keywords=Intel%2BCore%2Bi7&qid=1733322020&sprefix=intel%2Bcore%2Bi7%2Caps%2C390&sr=8-3&th=1" class="dropdown-item">
+                <img src="{% static 'img/compu2.jpg' %}" alt="Ensamble Intel Core i7" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ensamble Intel Core i7</h5>
+                    <p class="price">$1,199.99</p>
+                    <p class="card-text">Procesador Intel Core i7-12700, 16GB RAM DDR4, 1TB SSD, tarjeta gráfica NVIDIA GeForce GTX 1660. Perfecto para diseño gráfico y gaming avanzado.</p>
+                    <p>⭐⭐⭐⭐☆</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        <!-- Ensamble 3: AMD Ryzen 7 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <a href="https://www.amazon.com/-/es/AMD-Procesador-desbloqueado-Ryzen-5700X/dp/B09VCHQHZ6?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.plS-MoK4pHCiiAAv_W6D19wzG8o0CLhd8g914v9lukg4wLJ5vozJxHNPv6VOQ2u5o8r7LbIvVaQmYLMfE2iQ_iVYhAkVsHzWhKbzcRpjvsBYqrjiqCoG33bGj-0bn2Mg5aYYUWTa4_p64_z_KBewBpEt01ahHRqLZwwWAmBz_ic_521ZJilNCv71bGl-aJvAobEbYXSNB9EsuIbD9EQdabSdBsacr-yDhc_Bj_t_leE.cRbUCBQfJFoQpq7yzTjtTp5BSjhwhceNg2EcBQssIT4&dib_tag=se&keywords=AMD+Ryzen+7&qid=1733322510&sr=8-1" class="dropdown-item">
+                <img src="{% static 'img/compu3webp.png' %}" alt="Ensamble AMD Ryzen 7" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ensamble AMD Ryzen 7</h5>
+                    <p class="price">$1,499.99</p>
+                    <p class="card-text">Procesador AMD Ryzen 7 5800X, 32GB RAM DDR4, 1TB SSD NVMe, tarjeta gráfica NVIDIA RTX 3060. Rendimiento de nivel profesional para cualquier tarea.</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 {% endblock %}

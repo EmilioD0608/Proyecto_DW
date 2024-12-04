@@ -7,8 +7,37 @@
 
 {% block content %}
 <div class="container mt-4">
-    <h2>Acerca de nosotros</h2>
-    <p>Conoce mas sobre nosotros..</p>
     <!-- Aquí puedes agregar tarjetas, productos, etc. -->
 </div>
+    <section id="about" class="mt-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Acerca de Nosotros</h2>
+        <div class="row align-items-center">
+            <!-- Imagen representativa -->
+            <div class="col-md-6">
+                <img src="{% static 'img/fut.jpg' %}" alt="Acerca de Nosotros" class="img-fluid rounded shadow">
+            </div>
+            <!-- Contenido de texto -->
+            <div class="col-md-6">
+                <h3>Nuestra Misión</h3>
+                <p>
+                    Proporcionar soluciones tecnológicas innovadoras que mejoren la vida de nuestros clientes,
+                    combinando calidad, confiabilidad y servicio excepcional.
+                </p>
+                <h3>¿Quiénes Somos?</h3>
+                <p>
+                    Somos un equipo apasionado por la tecnología, con años de experiencia en el mercado.
+                    Ofrecemos una amplia gama de productos, desde computadoras personalizadas hasta accesorios de última generación.
+                </p>
+                <h3>Nuestros Valores</h3>
+                <ul>
+                    <li><strong>Innovación:</strong> Siempre a la vanguardia de las últimas tendencias.</li>
+                    <li><strong>Calidad:</strong> Garantizamos productos confiables y duraderos.</li>
+                    <li><strong>Servicio:</strong> Nuestro cliente es nuestra prioridad.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% endblock %}

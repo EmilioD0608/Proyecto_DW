@@ -7,8 +7,48 @@
 
 {% block content %}
 <div class="container mt-4">
-    <h2>Teclados</h2>
-    <p>Teclados a buen precio, paga 2 lleva 2.</p>
     <!-- Aquí puedes agregar tarjetas, productos, etc. -->
 </div>
+    <section id="productos" class="mt-5">
+    <h2>Mouses y teclados de todo tipo!!</h2>
+    <div class="row">
+        <!-- Producto 1: Mouse Gamer RGB -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'img/product1.jpg' %}" alt="Mouse Gamer RGB" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Mouse Gamer RGB</h5>
+                    <p class="price">$29.99</p>
+                    <p class="card-text">Iluminación personalizable, alta precisión y diseño ergonómico para largas sesiones de juego.</p>
+                    <p>⭐⭐⭐⭐☆</p>
+                </div>
+            </div>
+        </div>
+       <!-- Producto 2: Teclado Mecánico RGB -->
+<div class="col-md-4">
+    <div class="card shadow">
+        <img src="{% static 'img/teclado.jpg' %}" alt="Teclado Mecánico RGB" class="img-fluid">
+        <div class="card-body text-center">
+            <h5 class="card-title">Teclado Mecánico RGB</h5>
+            <p class="price">$129.99</p>
+            <p class="card-text">Teclado mecánico con retroiluminación RGB personalizable, switches rojos para pulsaciones suaves y diseño ergonómico para largas sesiones de trabajo o gaming.</p>
+            <p>⭐⭐⭐⭐⭐</p>
+        </div>
+    </div>
+</div>
+
+        <!-- Producto 3: Audífonos RGB -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="{% static 'img/product3.jpg' %}" class="img-fluid" alt="Audífonos RGB">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Audífonos Gamer RGB</h5>
+                    <p class="price">$49.99</p>
+                    <p class="card-text">Audífonos gamer con sonido envolvente, iluminación RGB y micrófono integrado para una experiencia inmersiva.</p>
+                    <p>⭐⭐⭐⭐☆</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
